@@ -1,0 +1,19 @@
+from qiskit import *
+import matplotlib.pyplot as plt
+import networkx as nx
+G = nx.Graph()
+color_map=[]
+G.add_nodes_from([0,1,2,3,4])
+G.add_edges_from([(0,1),(0,2),(1,3),(0,4)])
+for node in G:
+    if node = 0:
+        #color to indicate that this node interacted with node 1, and is potentally infected
+    if node = 1:
+        #color to indicate that this node was patient 0
+    if node = 2:
+        #color to indicate that this node interacted with node 0
+    if node = 3:
+        #color to indicate that this node interacted with node 1
+    if node = 4:
+        #color to indicate that this node interacted with node 0
+nx.draw(G, with_labels = True)
